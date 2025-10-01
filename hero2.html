@@ -9,10 +9,9 @@
   </head>
   <body>
     <canvas id="canvas" width="720" height="321"></canvas>
-    <br>
-    <!-- <a href="hero2.html" style="font-weight: bold; background-color: black; color: white; padding: 10px; font-family: sans-serif; font-size: medium;">Option 2 - Static Nexus</a>  -->
-    
+   
     <script src="https://unpkg.com/@rive-app/canvas"></script>
+    <script src="https://unpkg.com/@rive-app/canvas@2.24.0"></script>
     <script>
       const r = new rive.Rive({
         src: "rives/BA-LP-AnimatedBG-NexusInteractive.riv",
@@ -27,9 +26,9 @@
       });
 
       // Resize the drawing surface if the window resizes
-    /* window.addEventListener("resize", () => {
+   window.addEventListener("resize", () => {
     r.resizeDrawingSurfaceToCanvas();
-});  */
+});  
     </script>
    <div class="option" style="margin-top: 20px; font-family: sans-serif; font-size: medium;">
     <a class="mx-3 p-3 btn btn-primary btn-sm" href="index.html"> 01 - Interactive Nexus (Static BG) </a>
